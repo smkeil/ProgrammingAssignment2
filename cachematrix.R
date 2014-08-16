@@ -1,7 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## Just testing if I can get my local copy to overwrite what is present in my
+## forked repository on GitHub.
 
 makeCacheMatrix <- function(x = matrix()) {
 
