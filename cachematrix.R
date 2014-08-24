@@ -69,6 +69,6 @@ cacheSolve <- function(x = matrix(), ...) {
         data <- x$get()         ## Store a copy of current matrix in data.
         inv <- solve(data, ...) ## Store the inverse of data in inv.
         x$setinverse(inv)       ## Store the inverted matrix in list returned
-        ## by makeCacheMatrix().
+                                ## by makeCacheMatrix().
         inv
 }
